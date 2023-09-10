@@ -36,10 +36,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 private fun CircleItem(){
-    var btCounter = remember {
+    val btCounter = remember {
         mutableStateOf(0)
     }
-    var scrnColor = remember {
+    val scrnColor = remember {
         mutableStateOf(Color.Gray)
     }
     Box(contentAlignment = Alignment.Center,
