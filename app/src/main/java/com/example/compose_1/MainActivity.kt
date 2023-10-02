@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     listOf("item1", "item2", "item3", "end", "finish","item1", "item2", "item3", "end", "finish",
                     "item1", "item2", "item3", "end", "finish",
                         "item1", "item2", "item3", "end", "finish")
-                ){index, item ->
+                ){ _, item ->
                     Text(
                         text = item,
                         fontSize = 30.sp,
