@@ -26,22 +26,22 @@ class MainActivity : ComponentActivity() {
                     listOf(
                         "Book235",
                         "Book111",
-                        "Book5"
+                        "Book5",
                         "end",
                         "finish",
                         "Book235",
                         "Book111",
-                        "Book5"
+                        "Book5",
                         "end",
                         "finish",
                         "Book235",
                         "Book111",
-                        "Book5"
+                        "Book5",
                         "end",
                         "finish",
                         "Book235",
                         "Book111",
-                        "Book5"
+                        "Book5",
                         "end",
                         "finish"
                     )
