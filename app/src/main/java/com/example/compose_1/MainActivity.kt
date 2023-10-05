@@ -23,10 +23,29 @@ class MainActivity : ComponentActivity() {
                     .fillMaxSize()
             ) {
                 itemsIndexed(
-                    listOf("item1", "item2", "item3", "end", "finish","item1", "item2", "item3", "end", "finish",
-                    "item1", "item2", "item3", "end", "finish",
-                        "item1", "item2", "item3", "end", "finish")
-                ){ _, item ->
+                    listOf(
+                        "Book235",
+                        "Book111",
+                        "Book5"
+                        "end",
+                        "finish",
+                        "Book235",
+                        "Book111",
+                        "Book5"
+                        "end",
+                        "finish",
+                        "Book235",
+                        "Book111",
+                        "Book5"
+                        "end",
+                        "finish",
+                        "Book235",
+                        "Book111",
+                        "Book5"
+                        "end",
+                        "finish"
+                    )
+                ) { _, item ->
                     Text(
                         text = item,
                         fontSize = 30.sp,
